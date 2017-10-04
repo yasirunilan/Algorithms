@@ -1,4 +1,6 @@
-    public class BubbleSort {  
+//    run 'javac BubbleSort.java' to compile the program
+//    run 'java BubbleSort' to run the compiled program
+    public class BubbleSort {
         static void bubbleSort(int[] arr) {  
             int n = arr.length;  
             int temp = 0;  
