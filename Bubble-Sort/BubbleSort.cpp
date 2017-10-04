@@ -14,6 +14,7 @@ void bubblesort(vector<T> &a)
 		}
 	}
 }
+
 int main()
 {
 	vector<int> a{56, -6, 89, 111, 255, -8888888, 1};
