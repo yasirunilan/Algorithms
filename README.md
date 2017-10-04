@@ -1,7 +1,7 @@
 # Algorithms
 This Repository contains all sort of algrithms that we learn for Algorithms. 
 
-## Contributing ##
+## How to Contribute ##
 1. First, fork this repository to your account.
 
 2. Clone this repository (this would make rebasing easier).
@@ -30,18 +30,21 @@ This Repository contains all sort of algrithms that we learn for Algorithms.
     git checkout -b mybranch
     ```
 
-6. Make your changes. Then stage them and commit them.
+6. Make your changes.
+   ##### Before you contribute, please see [CONTRIBUTION GUIDE](https://github.com/yasirunilan/Algorithms/blob/master/CONTRIBUTING.md)
+ 
+7. Then stage them and commit them.
 
     *A small description of your changes is must in the commit messages.* 
 
-7. After you are done making changes, push the branch to your fork.
+8. After you are done making changes, push the branch to your fork.
     ```
     git push -u myfork mybranch
     ```
     The **-u** option is required only the first time you push the branch.
 	In case you have made multiple commits, you need to squash them into a single commit before pushing.
 
-13. Then create a PR from that branch using GitHub.
+9. Then create a PR from that branch using GitHub.
   *Add the issue number that you are addressing through your pull request along with describing what you did for the PR description.It will be eaasy to manage issues and PR's*
   
   Following format is good
