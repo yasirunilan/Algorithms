@@ -1,3 +1,6 @@
+Type the following
+C program in a text editor and save it in the folder C:\Code with the filename sort1.c:
+
 /* This program sorts a given list of integers in an increasing order
 using bubble sort. */
 /* BL */
