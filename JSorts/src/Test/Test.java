@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package main.Test;
+package Test;
 
 import java.util.Random;
-import tools.JavaSort;
+import Tools.JavaSort;
 
 /**
  *
