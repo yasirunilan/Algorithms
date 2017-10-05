@@ -1,3 +1,4 @@
+type ./bubblesort.sh to run program.
 #!/bin/bash
 
 #	Bash Implementation of Bubblesort
