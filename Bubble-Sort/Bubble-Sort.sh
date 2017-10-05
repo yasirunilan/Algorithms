@@ -2,14 +2,14 @@
 
 #	Bash Implementation of Bubblesort
 
-give_random_numbers() {	                                                # give 20 random Integers between 0 and 99
+give_random_numbers() {	                                                                # give 20 random Integers between 0 and 99
 	for i in $(seq 0 19)
 	do
 		elements[$i]=$[$RANDOM%100]
 	done
 }
 
-bubblesort() {	                                                       # Where the magic happens
+bubblesort() {	                                                                        # Where the magic happens
 for ((i=${#elements[@]}-1;i>0;i--))			                               # take every single element from the Array, in order.
 do
 	for((j=0;j<i;j++))															                      # Then take all elements that have been touched,
