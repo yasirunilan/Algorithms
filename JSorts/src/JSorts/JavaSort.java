@@ -3,19 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Tools;
+package JSorts;
 
 /**
  *
  * @author Trevi
  */
 public class JavaSort {
-    
 
 
 
- 
-    
+
     // <editor-fold defaultstate="collapsed" desc="Sort Methods">
     
 /**
@@ -38,7 +36,13 @@ public class JavaSort {
             }
             return arr;
     }
-
+/**
+ * The bubbleSortAscending method is the slowest elementary
+ * sort algorithm. Orders elements one at a time.
+ * From lowest to highest
+     * @param arr
+     * @return 
+ */
     public int bubbleSortAscending(int[] arr)[]{
         for(int i = arr.length - 1; i > 1; i--){
             for(int j = 0; j < i; j++){
@@ -48,7 +52,13 @@ public class JavaSort {
         }
         return arr;
     }    
-    
+/**
+ * The bubbleSortAscending method is the slowest elementary
+ * sort algorithm. Orders elements one at a time.
+ * From highest to lowest
+     * @param arr
+     * @return 
+ */    
     public int bubbleSortDescending(int[] arr)[]{
         for(int i = 0; i < arr.length; i++){
             for(int j = 1; j < (arr.length - i); j++){
@@ -58,17 +68,12 @@ public class JavaSort {
         }
         return arr;        
     }
-
-
-    
-    
-    
-
     // </editor-fold>
 
     // <editor-fold defaultstate="collapsed" desc="Class Methods">
 /**
- * The swapValues used by sort methods to swap 2 values at given indexes
+ * The swapValues method used by sort methods to swap 2 
+ * elements at given indexes
      * @param x
      * @param y
  */
@@ -78,17 +83,6 @@ public class JavaSort {
         arr[y] = temp;
         return arr;
     }
-
-
-
-
-
-
-
-    // </editor-fold>
-
-    // <editor-fold defaultstate="collapsed" desc="Private Field Variables">
-    private int[] tempArray;
     // </editor-fold>
 }
 
